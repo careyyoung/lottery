@@ -10,7 +10,7 @@ import javax.persistence.Table;
 
 
 @Entity
-@Table(catalog="weir",name="user")
+@Table(catalog="test",name="user")
 public class User {
 	@Id
 	@Column(name="user_id")
